@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  background: #1f1f1f;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background: #741188;
+  border-color: #741188;
+}
+
+button:focus {
+  outline: none;
+}
+
+.users {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.users_ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.users_li {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
